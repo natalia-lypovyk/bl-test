@@ -1,6 +1,6 @@
 import { ChakraProvider, useDisclosure } from "@chakra-ui/react";
-import { Layout } from "./layout";
-import { ConnectButton, AccountModal } from "./components";
+
+import { ConnectButton, AccountModal, Layout } from "./components";
 
 export const App = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
